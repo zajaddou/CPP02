@@ -24,7 +24,7 @@ class Fixed
 		float 	toFloat( void ) const;
 		int 	toInt( void ) const;
 
-		Fixed &operator=(const Fixed &copy);
+		Fixed 	&operator=(const Fixed &copy);
 
 		bool 	operator!=(const Fixed &other) const;
 		bool	operator==(const Fixed &other) const;
