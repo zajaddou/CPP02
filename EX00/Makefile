@@ -21,10 +21,3 @@ fclean: clean
 	rm -f $(NAME)
 
 re: fclean all
-
-run: all clean
-	@clear
-	@./$(NAME)
-	@rm $(NAME)
-
-.PHONY: all clean fclean re
